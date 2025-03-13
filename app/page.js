@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import DarkModeToggle from "./components/DarkModeToggle";
 import ProfileCard from "./components/ProfileCard";
@@ -9,7 +8,7 @@ export default function BioPage() {
 
   return (
     <div
-      className={`flex flex-col items-center justify-center min-h-screen p-4 ${
+      className={`flex flex-col items-center justify-center min-h-screen p-4 transition-all ${
         darkMode ? "bg-gray-900 text-white" : "bg-gray-100 text-black"
       }`}
     >
